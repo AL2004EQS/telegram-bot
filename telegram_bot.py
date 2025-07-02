@@ -692,9 +692,10 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, KeyboardButton
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes, CallbackQueryHandler
 import random
+import os
 
-TELEGRAM_TOKEN = "7800118937:AAFrsLwwxvqYy3GmvLgU8MGzt_AxtVBlyfk"
-ADMIN_ID = 7967129348  # Քո Telegram ID
+TELEGRAM_TOKEN = os.getenv("7800118937:AAFrsLwwxvqYy3GmvLgU8MGzt_AxtVBlyfk")
+ADMIN_ID = int(os.getenv("7967129348")  # Քո Telegram ID
 
 users_data = {}
 pending_verifications = {}
