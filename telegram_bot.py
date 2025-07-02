@@ -693,6 +693,9 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKe
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes, CallbackQueryHandler
 import random
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 TELEGRAM_TOKEN = "7800118937:AAFrsLwwxvqYy3GmvLgU8MGzt_AxtVBlyfk"
 ADMIN_ID = 7967129348  # Քո Telegram ID
