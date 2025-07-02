@@ -695,7 +695,7 @@ import random
 import os
 
 TELEGRAM_TOKEN = os.getenv("7800118937:AAFrsLwwxvqYy3GmvLgU8MGzt_AxtVBlyfk")
-ADMIN_ID = int(os.getenv("7967129348")  # Քո Telegram ID
+ADMIN_ID = 7967129348  # Քո Telegram ID
 
 users_data = {}
 pending_verifications = {}
