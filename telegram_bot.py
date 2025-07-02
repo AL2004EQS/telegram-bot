@@ -694,7 +694,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 import random
 import os
 
-TELEGRAM_TOKEN = os.getenv("7800118937:AAFrsLwwxvqYy3GmvLgU8MGzt_AxtVBlyfk")
+TELEGRAM_TOKEN = "7800118937:AAFrsLwwxvqYy3GmvLgU8MGzt_AxtVBlyfk"
 ADMIN_ID = 7967129348  # Քո Telegram ID
 
 users_data = {}
